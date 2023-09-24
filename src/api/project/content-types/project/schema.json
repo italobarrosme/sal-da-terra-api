@@ -43,12 +43,6 @@
     "slug": {
       "type": "uid",
       "required": true
-    },
-    "team": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::team.team",
-      "inversedBy": "project"
     }
   }
 }
