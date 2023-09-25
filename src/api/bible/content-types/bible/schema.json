@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bibles",
+  "info": {
+    "singularName": "bible",
+    "pluralName": "bibles",
+    "displayName": "bible"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "book": {
+      "type": "string",
+      "required": true
+    },
+    "verse": {
+      "type": "text",
+      "required": true
+    },
+    "chapter": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
